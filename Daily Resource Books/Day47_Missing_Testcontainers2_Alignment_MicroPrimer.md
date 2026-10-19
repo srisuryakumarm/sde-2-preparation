@@ -2,6 +2,7 @@
 
 **Do this first on Day 47 (≈ 15 min), then continue with Day 47's regular plan.**
 **Needed by:** Day 47's Project Block (replace H2 with PostgreSQL through Testcontainers), Days 62+ (integration tests per module).
+**Why it is missing:** Testcontainers 2.x renamed its artifacts and the Postgres container class's package; the Day 47 book was written against the 1.x names.
 **Already in place:** Docker (Day 43), `@DataJpaTest` on H2 (Day 45), a Postgres image you already run locally (Day 36).
 
 ## 1. What changed in Testcontainers 2.x (the version Boot 4 uses)
@@ -20,7 +21,7 @@ Do it the plan's way first (it shows what is really happening), then switch to `
 ## 3. Things that bite
 - Keep `@DataJpaTest`'s default H2 replacement from winning: add `@AutoConfigureTestDatabase(replace = Replace.NONE)`.
 - Docker must be running before `./mvnw test`; the first run pulls the image (slow).
-- Pin the image (`postgres:17`) so tests use the same major version as your dev database.
+- Pin the image (`postgres:16`) so tests use the same major version as your dev database.
 - Flyway runs against the real container now, so the Day 45 "Flyway on H2" workaround can go.
 
 ## Checklist

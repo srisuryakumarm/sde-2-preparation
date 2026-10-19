@@ -13,14 +13,14 @@ Day 36's `application.yml` assumes: user `postgres`, password `postgres`, databa
 **A — Docker (the book's one-liner).** Needs Docker Desktop installed and running (you need it from Day 43 anyway):
 ```bash
 docker run --name todo-postgres -e POSTGRES_PASSWORD=postgres -e POSTGRES_DB=tododb \
-           -p 5432:5432 -d postgres:17          # pin a major version so a future "latest" cannot surprise you
+           -p 5432:5432 -d postgres:16          # pin the major version Days 44 and 47 use, so a future "latest" cannot surprise you
 docker exec -it todo-postgres psql -U postgres -d tododb      # open a SQL shell
 ```
 **B — native (lighter than Docker Desktop on a small-RAM Mac):**
 ```bash
-brew install postgresql@17
-brew services start postgresql@17
-export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"       # add to ~/.zshrc too
+brew install postgresql@16
+brew services start postgresql@16
+export PATH="/opt/homebrew/opt/postgresql@16/bin:$PATH"       # add to ~/.zshrc too
 createuser -s postgres                                         # Homebrew's default superuser is YOUR macOS user, not "postgres"
 psql -d postgres -c "ALTER USER postgres PASSWORD 'postgres';"
 createdb -O postgres tododb
@@ -53,7 +53,7 @@ spring:
 ## 5. First-run errors
 | You see | Cause | Fix |
 |---|---|---|
-| `Connection refused` | Postgres not running | start the container / `brew services start postgresql@17` |
+| `Connection refused` | Postgres not running | start the container / `brew services start postgresql@16` |
 | `password authentication failed for user "postgres"` | role/password mismatch | recreate per §1 |
 | `database "tododb" does not exist` | not created | `createdb -O postgres tododb` |
 | `Failed to configure a DataSource` | yml missing or mis-indented | re-check §3 and the YAML primer |
