@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 147 closed the portfolio and job-search work — five repositories pinned in a deliberate order, every README honest about what it actually represents, and application status reviewed across all seven target companies with real referral gaps acted on rather than just noted. Today doesn't add anything new. It confirms what's already true, and then says so plainly.

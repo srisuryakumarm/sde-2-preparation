@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day72_Missing_Load_Balancing_Algorithms_HTTP_Semantics_and_Caching_Headers_MicroPrimer.md](Day72_Missing_Load_Balancing_Algorithms_HTTP_Semantics_and_Caching_Headers_MicroPrimer.md) — Load Balancing Algorithms, HTTP Semantics & Caching Headers (≈ 30 min)
+> 2. [Day72_Missing_gRPC_Protobuf_and_GraphQL_MicroPrimer.md](Day72_Missing_gRPC_Protobuf_and_GraphQL_MicroPrimer.md) — gRPC, Protocol Buffers, and GraphQL vs REST (≈ 45 min)
+
+---
+
 ## Recap
 
 Day 70 introduced **multi-source BFS** for a *distance* question: seed the queue with every source at once, and the level counter measures "minutes elapsed" from whichever source reached a cell first (Rotting Oranges, 01 Matrix). Today reuses the exact same "seed with every source simultaneously" idea, but for a genuinely different question: not *how far*, but *can this cell reach the border at all*. That's a **reachability** question, not a distance question — and the distinction matters, because it changes which traversal (BFS or DFS) is actually required, something today makes explicit rather than assuming BFS is always the answer just because the source is multi-seeded.

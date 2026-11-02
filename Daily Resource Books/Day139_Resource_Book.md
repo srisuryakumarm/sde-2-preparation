@@ -8,6 +8,15 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day139_Missing_CICD_GitHubActions_MicroPrimer.md](Day139_Missing_CICD_GitHubActions_MicroPrimer.md) — CI/CD and GitHub Actions Pipeline (≈ 30 min)
+> 2. [Day139_Missing_Git_Branching_Rebase_and_PR_Workflow_MicroPrimer.md](Day139_Missing_Git_Branching_Rebase_and_PR_Workflow_MicroPrimer.md) — Git Branching, Rebase, and PR Workflows (≈ 45 min)
+> 3. [Day139_Missing_JDK_and_CI_Version_Alignment_MicroPrimer.md](Day139_Missing_JDK_and_CI_Version_Alignment_MicroPrimer.md) — JDK & CI Version Alignment (≈ 15 min)
+
+---
+
 > ⚠️ **The same flag as Day 134, resurfacing.** Today's plan again says readiness/liveness probes were "already configured back in the DSA phase for `todo-api`." As established Day 134: `00_Curriculum_Map.md` shows no Kubernetes deployment for `todo-api` anywhere in its history — Docker and Docker Compose only, frozen since Day 62 — so there's nothing to corroborate a prior probe configuration either. Not re-litigated at length a second time; today's probes get built as genuinely new material regardless, exactly as Day 134 already decided to treat the underlying claim.
 
 ---

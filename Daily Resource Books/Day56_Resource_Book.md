@@ -6,6 +6,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day56_Missing_Matrix_Number_and_Design_a_Data_Structure_Problems_Primer.md](Day56_Missing_Matrix_Number_and_Design_a_Data_Structure_Problems_Primer.md) — Matrix Traversal (Spiral, Rotate) and Design DS Problems (≈ 2 hrs)
+
+---
+
 ## Recap: what today is
 
 Today closes Week 8 — two more required Heap problems, a self-check, and the full week's consolidation. Top K Frequent Elements is the canonical "count with a HashMap, then bound with a heap" combination this week's problems have been building toward without naming it as its own explicit shape. Ugly Number II is a different kind of heap problem from anything else this week — instead of being handed a fixed input to extract the top/bottom k from, it **generates its own candidates**, pulling the heap's smallest-value-in-sorted-order guarantee (Day 54's mechanism) into a candidate-generation loop rather than a fixed-collection query.

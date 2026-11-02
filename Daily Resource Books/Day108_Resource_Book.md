@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day108_Missing_Practical_Coding_Rounds_Existing_Codebase_and_Code_Comprehension_Primer.md](Day108_Missing_Practical_Coding_Rounds_Existing_Codebase_and_Code_Comprehension_Primer.md) — Practical Coding Rounds: Existing Codebase & Comprehension (≈ 60 min)
+
+---
+
 ## Recap
 
 Days 106–107 taught ten patterns and the 5-step framework in isolation, one pattern at a time, against small illustrative examples. Today is the first time the framework runs **end to end, against one real system, live** — every step from "clarify requirements" through "code the core," in order, on Tic-Tac-Toe specifically because it's small enough that the *process* is the actual lesson, not the system's own complexity. Two new, genuinely new-today concepts — Coupling, Cohesion, and the Law of Demeter — get applied retroactively to whatever gets built, which only works because there's now a real, freshly-written design to point at rather than a hypothetical one.

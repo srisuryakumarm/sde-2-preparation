@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday's recurrence shape — `dp[i]` built from `dp[i-1]` and `dp[i-2]` — always *added* both possibilities together (every way to reach step `i` counts). Today keeps the exact same two-steps-back lookback but replaces "add both" with a **decision**: at each position, either take it or skip it, and only one of those two choices survives into the final answer. The mechanics (base cases, O(1) space rolling, the "state the recurrence, then prove it" discipline) transfer directly from yesterday; what's new is the `max()` standing in for what was `+` in Climbing Stairs.

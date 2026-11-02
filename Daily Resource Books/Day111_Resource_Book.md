@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday's `ParkingLot` is correct — for one thread at a time. Today's entire job is finding, proving, and fixing exactly where it stops being correct once multiple threads compete for the same spots, using material this series has already fully paid for: `synchronized` and `ReentrantLock` (Week 6, Day 37), `wait()`/`notify()` (Week 6, Day 38), `ConcurrentHashMap`'s CAS-based bucket locking (Week 6, Day 39), and `volatile`/the Java Memory Model (Week 15, Day 100). One genuinely new class appears today — `AtomicInteger` — introduced explicitly as *new API, already-understood mechanism*: it uses the same Compare-And-Swap primitive Day 39 already opened up inside `ConcurrentHashMap`, not a new concept from zero.

@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day71_Missing_OS_Fundamentals_and_IO_Models_Primer.md](Day71_Missing_OS_Fundamentals_and_IO_Models_Primer.md) — OS Fundamentals, Processes, Threads, and I/O Models (≈ 75 min)
+
+---
+
 ## Recap
 
 Week 10 closed with Graphs open at 6/12 required (+2 extra), and the Concept Card from Day 68 established three things that today leans on directly, without re-deriving any of them: **adjacency list vs. matrix** (list wins for the sparse graphs interviews favor), **`visited` is mandatory whenever cycles are possible** (a tree can't cycle, a graph can), and the **BFS-vs-DFS interview signal** (shortest/minimum/fewest → BFS, unconditionally). Day 69 went one step further and used **3-state coloring** (unvisited / visiting / safe) to detect cycles in a *directed* graph — Find Eventual Safe States. Today's new material is the direct escalation of exactly that idea: instead of just detecting whether a directed cycle exists, Topological Sort asks for a full linear ordering that's only possible when no cycle exists at all. Today closes the last 2 of Graphs' 12 required problems for real interview cycle-detection, and starts Networking — the first of two "how the internet actually works" theory days this week.

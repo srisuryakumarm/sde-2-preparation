@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day132_Missing_SkipList_MicroPrimer.md](Day132_Missing_SkipList_MicroPrimer.md) — Skip Lists and Why Redis Uses Them (≈ 30 min)
+
+---
+
 ## Recap
 
 Sorted Sets have been used three times now without ever explaining *why* they behave the way they do: named as one of Redis's data structures on Day 123, used for geospatial indexing on Day 128, used again for delayed-job polling yesterday — every time treated as a black box with a proven O(log n) contract, the exact same relationship this series has had with `TreeMap`'s Red-Black tree since Week 1, Day 17. Today that box finally opens: the **Skip List** is the structure underneath, and it's built from scratch, mechanism first, today. The day's second system, Search Autocomplete, is lighter by comparison — it needs no new data structure at all, only a new way of *deploying* one already fully taught, Week 9's Trie.

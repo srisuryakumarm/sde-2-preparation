@@ -8,6 +8,16 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day36_Missing_YAML_Syntax_MicroPrimer.md](Day36_Missing_YAML_Syntax_MicroPrimer.md) — YAML Syntax Basics (≈ 15 min)
+> 2. [Day36_Missing_SQL_Relational_DB_Fundamentals_MicroPrimer.md](Day36_Missing_SQL_Relational_DB_Fundamentals_MicroPrimer.md) — SQL and Relational Database Fundamentals (≈ 20 min)
+> 3. [Day36_Missing_ACID_Fundamentals_MicroPrimer.md](Day36_Missing_ACID_Fundamentals_MicroPrimer.md) — ACID Transaction Properties (≈ 15 min)
+> 4. [Day36_Missing_Local_Postgres_and_JPA_Prereqs_MicroPrimer.md](Day36_Missing_Local_Postgres_and_JPA_Prereqs_MicroPrimer.md) — A Running PostgreSQL, JPA Dependencies, and Entity Rules (≈ 60 min)
+
+---
+
 ## Recap
 
 Day 34 gave you fast/slow pointers for exactly one job: finding the middle of a linked list (`slow` moves one step, `fast` moves two, and when `fast` runs out of list, `slow` is standing at the middle). Day 35 combined that mechanism with reversal (Palindrome Linked List) and introduced the dummy-head technique (Merge Two Sorted Lists), then used dummy-head again for a bounded reversal (LC 92) and built two genuinely different O(N log k) approaches to merging k lists (LC 23).

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Days 95–96 built XOR's cancellation properties and the `n&(n-1)` identity, and used both directly. Today starts by reusing XOR's cancellation unextended (Missing Number), then hits a case where XOR alone genuinely **isn't enough** — and generalizing it, precisely, is today's new technique.

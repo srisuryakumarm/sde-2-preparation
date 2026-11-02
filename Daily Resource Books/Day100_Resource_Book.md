@@ -7,6 +7,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday closed two patterns at once — Bit Manipulation (10/10) and Tries (7/7) — with Maximum XOR of Two Numbers in an Array fusing both into a Bit Trie. Kubernetes also opened from zero: Pod, ReplicaSet, Deployment, Service, and the declarative reconcile-loop model underneath all of them, closing with the Horizontal Pod Autoscaler as a controller running that same loop against a computed metric.

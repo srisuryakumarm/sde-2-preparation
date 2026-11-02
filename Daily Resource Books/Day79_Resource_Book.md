@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day79_Missing_CQRS_and_Event_Sourcing_MicroPrimer.md](Day79_Missing_CQRS_and_Event_Sourcing_MicroPrimer.md) — CQRS and Event Sourcing Architecture (≈ 45 min)
+
+---
+
 ## Recap
 
 Yesterday established Dijkstra's core mechanism — min-heap of `(distance, node)`, finalize-on-pop, relax neighbors, skip stale entries — and proved it correct via a domination argument that depends entirely on non-negative weights. Problem 2 then showed that mechanism is a *shape*, not a fixed recipe: flipping the objective (maximize instead of minimize) flips the heap direction and the combining operator, while the proof's skeleton survives unchanged.

@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day63_Missing_Spring_Cloud_Train_and_Resilience4j_MicroPrimer.md](Day63_Missing_Spring_Cloud_Train_and_Resilience4j_MicroPrimer.md) — Spring Cloud 2025.1 Release Train & Resilience4j Boot 4 Setup (≈ 30 min)
+> 2. [Day63_Missing_Web_and_API_Security_Fundamentals_Primer.md](Day63_Missing_Web_and_API_Security_Fundamentals_Primer.md) — Web & API Security Fundamentals (XSS, CSRF, CORS, SQLi, Auth) (≈ 60 min)
+
+---
+
 ## Recap
 
 Permutations (yesterday) fixed one position at a time and swapped every remaining candidate into it — a decision structure where each choice depends on what earlier positions already claimed. Today's two problems extend that same family in two different directions: Combinations drops the "every element must be placed somewhere" requirement entirely (order doesn't matter, and not every element appears), while Permutations II reintroduces yesterday's exact swap mechanism but must now also suppress duplicate output when the input itself has repeated values — a genuinely new correctness requirement layered on an already-known technique.

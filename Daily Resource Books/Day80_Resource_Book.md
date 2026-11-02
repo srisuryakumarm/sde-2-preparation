@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day80_Missing_OLTP_vs_OLAP_Columnar_Storage_and_Batch_vs_Stream_MicroPrimer.md](Day80_Missing_OLTP_vs_OLAP_Columnar_Storage_and_Batch_vs_Stream_MicroPrimer.md) — OLTP vs OLAP, Columnar Storage, and Stream Processing (≈ 45 min)
+
+---
+
 ## Recap
 
 Yesterday's Path With Minimum Effort redefined "distance" as a path's *maximum edge*, weighting the connection between two adjacent cells. Today's capstone problem reuses that exact minimax relaxation rule, with one precise difference worth stating up front rather than discovering mid-problem: today's "cost" attaches to **nodes** (each cell's own elevation), not **edges** (the difference between two cells) — a small but real shift in what gets compared during relaxation. The mechanism and its correctness proof carry over unchanged; only the quantity being compared moves from an edge property to a node property.

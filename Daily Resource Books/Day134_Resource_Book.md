@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 > ⚠️ **Flag, not a silent fix — a claim worth checking before it gets repeated to an interviewer.** This week's own plan opens by saying `todo-api` and "the original plan's `order-management-api`" both "got real Kubernetes deployments" earlier in the series. Checked directly against `00_Curriculum_Map.md`: `todo-api` is documented as Docker- and Docker-Compose-managed only (Week 7, Days 43–44), explicitly frozen and feature-complete from Day 62 onward, with no Kubernetes deployment logged anywhere in its history. `order-management-api` never existed as a separate repository at all — per `Week_21_Revised.md`'s own later note, it was absorbed directly into `scalable-ecommerce-platform` back in Week 9. Neither project's documented history supports "both got real Kubernetes deployments." This doesn't change anything about today's actual work — the platform's first manifests get written either way — so it's flagged here and in the curriculum map rather than silently repeated or silently corrected, the same treatment this map has given every prior instance of a plan's framing outrunning its own documented history.
 
 ---

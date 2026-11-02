@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day118_Missing_SQL_vs_NoSQL_and_Choosing_a_Database_Primer.md](Day118_Missing_SQL_vs_NoSQL_and_Choosing_a_Database_Primer.md) — SQL vs NoSQL and Choosing a Database for System Design (≈ 45 min)
+
+---
+
 ## Recap
 
 Day 117 closed BookMyShow's concurrency problem two ways and proved both fixes deterministically, then pushed on justifying the choice between them with a real traffic-pattern argument, not a coin flip. Today reuses Strategy a **second** time — Splitwise (Day 115) was its first full system-level application; today confirms the pattern generalizes rather than having been a one-off, and does it with a meaningfully different flavor of Strategy implementation worth naming precisely. Today also opens a new arc entirely: a first look at the System Design framework Week 18 will spend two full weeks on — **preview depth only**, not the real teaching.

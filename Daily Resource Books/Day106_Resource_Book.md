@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 105 closed the entire DSA phase of this series: 197 required + 53 extra = 249 distinct DSA problems across Weeks 1–15, plus a 10-problem SQL track — 259 problems total, every pattern from HashMap/HashSet through Sorting now assumed fully reflexive. Today opens something structurally different: **Low-Level Design (LLD)**, the phase this entire plan has been building toward since Week 1's very first `Shape`/`Circle`/`Rectangle` hierarchy.

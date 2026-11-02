@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day131_Missing_Search_Systems_Inverted_Index_and_Elasticsearch_Primer.md](Day131_Missing_Search_Systems_Inverted_Index_and_Elasticsearch_Primer.md) — Search Systems, Inverted Index, and Elasticsearch (≈ 60 min)
+
+---
+
 ## Recap
 
 Yesterday closed the loop on idempotency and distributed locks, naming — for the first time in full — the general mechanism behind four earlier informal appearances. Today's system needs both of yesterday's mechanisms again, one layer down the stack: a job scheduler's core guarantee, **at-least-once execution**, is the exact same "might run twice under failure" shape Day 130 solved for payments, now applied to background jobs instead of API requests. Today also runs a mock that reuses yesterday's material directly — HLD Mock #4, subject Payment System, deliberately spending the full time pushing into race conditions rather than stopping at a first correct answer.

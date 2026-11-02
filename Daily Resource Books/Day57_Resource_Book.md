@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Week 8 opened Heaps from zero on Day 54 (array-backed complete binary tree, sift-up/sift-down, the unconditional-O(log n)-vs-BST contrast) and put it to work through three genuinely different roles: min-heap for "kth largest" (Day 54–55), max-heap for "keep the k best" (Day 54's Last Stone Weight, Day 55's K Closest Points), and a heap as a **candidate generator** rather than a query structure (Day 56's Ugly Number II). That's 6/10 required problems plus 3 extra (Minimum Cost to Connect Sticks, Kth Smallest in a Sorted Matrix, Sort Characters By Frequency) — 9 distinct heap problems solid before today.

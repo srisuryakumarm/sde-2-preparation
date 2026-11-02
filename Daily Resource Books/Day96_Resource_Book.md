@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day96_Missing_Kubernetes_Fundamentals_Primer.md](Day96_Missing_Kubernetes_Fundamentals_Primer.md) — Kubernetes Fundamentals — Pods, Deployments, Services (≈ 60 min)
+
+---
+
 ## Recap
 
 Yesterday derived `n & (n-1)` from binary subtraction (clears the lowest set bit) and used it to count set bits in Number of 1 Bits. Today reuses that exact identity twice more — once directly, once **fused with 1D DP's lookback discipline** (Week 12, Day 81 onward) — the same kind of cross-pattern fusion this series named explicitly once before (Word Break II fusing DP and Backtracking, Week 13, Day 86).

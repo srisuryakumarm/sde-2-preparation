@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day74_Missing_Linux_Command_Line_and_Production_Troubleshooting_Primer.md](Day74_Missing_Linux_Command_Line_and_Production_Troubleshooting_Primer.md) — Linux CLI, Production Troubleshooting, and Container Internals (≈ 50 min)
+
+---
+
 ## Recap
 
 Graphs closed yesterday at 12/12 required, and its final lesson was explicit: not every question about a graph is best answered by traversing it. Today is the direct payoff of that lesson. Union-Find answers exactly one question — "are these two things connected, directly or transitively" — dramatically faster than re-running BFS/DFS every time that question is asked again, especially as connections are added incrementally over time. This is a **brand new data structure**, taught fully from scratch; nothing about it is inherited from Graphs beyond the motivating question.

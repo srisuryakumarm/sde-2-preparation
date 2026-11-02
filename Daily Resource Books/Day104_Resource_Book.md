@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday built subqueries, correlated subqueries, `GROUP BY`/`HAVING`, and two self-join shapes on top of Week 6's SQL fundamentals — and established the logical query processing order (`FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY → LIMIT`) that today extends by one more rule. Today is, deliberately, the single densest new-concept day of the SQL track: **window functions** — the one SQL topic genuinely likely to trip up someone whose SQL background is mostly transactional CRUD rather than analytical querying.

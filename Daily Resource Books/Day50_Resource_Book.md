@@ -6,6 +6,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day50_Missing_Delivery_Semantics_and_Idempotent_Consumers_Primer.md](Day50_Missing_Delivery_Semantics_and_Idempotent_Consumers_Primer.md) — Kafka Delivery Semantics and Idempotent Consumers (≈ 50 min)
+
+---
+
 ## Recap: what today is
 
 Week 7 closed with Trees opened at 8 of an eventual 15 required problems (Maximum Depth, Invert, Same Tree, Symmetric Tree, Balanced, Diameter, Level Order, Right Side View — plus three extras: Subtree of Another Tree, Minimum Depth, Average of Levels). Every one of those problems worked on a **plain** binary tree — no assumption about how values relate to each other beyond "this is a tree." Today adds exactly one new idea on top of that: an ordering invariant. The `TreeNode` shape, the universal recursive template (base case for `null`, combine `left`/`right`), and the depth/height vocabulary from Day 46 are not being re-taught — they're the floor today stands on.

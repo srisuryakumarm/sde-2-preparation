@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap: what today is
 
 Back in Week 10 (Day 68), you built a Token Bucket rate limiter for the platform's Gateway — a single, working algorithm, on a single instance. Today does two things Day 68 deliberately left for later: it places Token Bucket alongside the three other algorithms that actually get compared in a real interview, and it exposes the specific way Token Bucket's original implementation quietly breaks the moment the Gateway (Week 10, Day 66) runs as more than one instance — which, once Spring Cloud Gateway and a Load Balancer (Week 10, Day 72) are both already in the picture, is exactly the realistic situation this platform is now in.

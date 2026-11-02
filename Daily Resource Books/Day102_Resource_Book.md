@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## ⚠️ Overlap Notice — Read This First
 
 Today's required problem, **Kth Largest Element in an Array (LC 215)**, already appears in the curriculum map's problem inventory — solved in **Week 8, Day 55**, via a min-heap of size k. That's not a mistake in today's plan: it's deliberate. Today revisits the same problem specifically to attach a **second, genuinely different technique** to it — Quickselect — which is the entire point of the day. Per this map's own overlap-handling convention:

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Days 46–47 built and extended a recursive template where a node's answer is computed purely from its own value and what its children's recursive calls *returned*. Today adds a second recursive shape on top of that: a helper that can **short-circuit** the instant it finds a problem anywhere below (Balanced Binary Tree), and a helper that needs to update some **running best-so-far that isn't the value being returned upward at all** (Diameter of Binary Tree). Both problems also expose the same underlying trap — recomputing the same subtree's height over and over — which is worth seeing once, explicitly, since it explains why the naive version of *both* problems is slower than it looks.

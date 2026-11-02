@@ -8,6 +8,15 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day105_Missing_Advanced_DSA_Extensions_Primer.md](Day105_Missing_Advanced_DSA_Extensions_Primer.md) — Advanced DSA Extensions (KMP, Rabin-Karp, Tarjan, Sweep-Line, Bitmask DP) (≈ 75 min)
+> 2. [Day105B_Rippling_and_Walmart_Global_Tech_Research.md](Day105B_Rippling_and_Walmart_Global_Tech_Research.md) — Company Technical Screen Research: Rippling & Walmart Global Tech
+> 3. [Day105_to_132_DSA_Coding_Mocks.md](Day105_to_132_DSA_Coding_Mocks.md) — DSA Coding Mocks Track: Session 1 (Day 105A)
+
+---
+
 ## Recap
 
 This week closed out three DSA patterns (Bit Manipulation at 10, Tries at 7, Segment Trees at 2), opened and closed the Sorting-from-scratch gap, opened and closed a 10-problem SQL practice track, and opened Design Patterns with all three Creational patterns implemented in depth. Today has **no new technical content at all** — by design. It's a self-check, followed by a full accounting of what the last 105 days actually built.

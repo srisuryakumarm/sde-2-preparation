@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day45_Missing_Boot41_Testing_Alignment_MicroPrimer.md](Day45_Missing_Boot41_Testing_Alignment_MicroPrimer.md) — Spring Boot 4.1 Test Starters & @MockitoBean Alignment (≈ 25 min)
+
+---
+
 ## Recap
 
 Today closes Stacks/Monotonic Stack at 12 of 12 required problems with the hardest of the three calculator-family problems — Basic Calculator adds parentheses on top of Day 43's Basic Calculator II, which means the stack now has to save and restore context across nested scopes, not just track a running computation. Nothing about the LIFO mechanism itself is new; what's new is *what* gets pushed. The theory block then pivots entirely: JUnit 5 and AssertJ open a fresh thread that Day 46's Mockito builds on directly tomorrow.

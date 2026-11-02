@@ -8,6 +8,15 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day30_Missing_Debugging_and_Reading_Stack_Traces_Primer.md](Day30_Missing_Debugging_and_Reading_Stack_Traces_Primer.md) — Debugging and Reading Stack Traces in Java / IntelliJ (≈ 60 min)
+> 2. [Day30_Missing_Lambdas_and_Method_References_Primer.md](Day30_Missing_Lambdas_and_Method_References_Primer.md) — Lambdas, Functional Interfaces, and Method References (≈ 60 min)
+> 3. [Day30_Missing_Streams_Optional_and_LocalDate_Primer.md](Day30_Missing_Streams_Optional_and_LocalDate_Primer.md) — Streams API, Optional<T>, and java.time (≈ 60 min)
+
+---
+
 ## Recap
 
 Yesterday closed with a proof that binary search only needs *some* rule for safely discarding half the search space — a sorted array is one such rule, a local slope comparison is another. Today's rule is a third: after an array has been sorted and then rotated at an unknown pivot, splitting it at any `mid` guarantees that **at least one of the two halves is still normally sorted** — and that's enough structure to binary search on, even though the array as a whole no longer is.

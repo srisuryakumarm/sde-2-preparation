@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day76_Missing_SLI_SLO_SLA_Error_Budgets_and_Availability_Math_MicroPrimer.md](Day76_Missing_SLI_SLO_SLA_Error_Budgets_and_Availability_Math_MicroPrimer.md) — SLIs, SLOs, SLAs, Error Budgets, and Availability Math (≈ 45 min)
+
+---
+
 ## Recap
 
 Yesterday's two problems unioned *rows and columns* and processed equations in two disciplined passes — both cases where the thing being unioned wasn't the raw input elements themselves, but an abstraction chosen to make the connectivity structure visible. Today continues that same instinct one step further: unioning **index positions** to justify a full character rearrangement, and unioning **emails** (not accounts) to correctly merge identities that share no direct account entry but do share an intermediate email.

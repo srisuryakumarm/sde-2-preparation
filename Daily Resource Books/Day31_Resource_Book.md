@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day31_Missing_Maven_Wrapper_and_Pom_Anatomy_Primer.md](Day31_Missing_Maven_Wrapper_and_Pom_Anatomy_Primer.md) — Maven, the Wrapper, and How to Read a pom.xml (≈ 60 min)
+> 2. [Day31_Missing_Spring_Core_IoC_and_DI_Primer.md](Day31_Missing_Spring_Core_IoC_and_DI_Primer.md) — Spring Core — Inversion of Control (IoC), Dependency Injection, and Beans (≈ 2 hrs)
+
+---
+
 ## Recap
 
 Day 30 established the rotated-array invariant (one half of any split is always sorted) and then broke it on purpose with duplicates, to show exactly what's lost and what it costs. Today reuses both halves of that lesson on two new shapes: a simpler rotated-array question (just the minimum, not an arbitrary target) that gets its own duplicate-handling extension today rather than next week, and a genuinely different kind of binary search — finding a *boundary* rather than a single match. Two extra-practice reps are added today, since both of today's required problems represent patterns real interviews lean on with more than one rep's worth of weight, and yesterday's problems already covered the "duplicates break things" lesson once — today reinforces it on new ground rather than re-deriving it.

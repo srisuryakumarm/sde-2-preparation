@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day130_Missing_Webhooks_Reliable_Receiving_and_Delivery_MicroPrimer.md](Day130_Missing_Webhooks_Reliable_Receiving_and_Delivery_MicroPrimer.md) — Webhooks — Reliable Receiving, Signatures, and Delivery (≈ 45 min)
+
+---
+
 ## Recap
 
 Four separate times now, this series has run into the same underlying shape and solved it a different, narrower way each time: Day 121's rate limiter used a Redis-plus-Lua atomic check-and-set; Day 122's notification system deduplicated with a best-effort Redis check, **deliberately not** the full mechanism, flagged explicitly at the time as deferred; Day 124's `synchronized nextId()` solved it with a plain JVM lock, good only within a single process; Day 126's BookMyShow seat-hold reused Day 121's own atomicity pattern again, this time for a TTL-based hold. Every one of those was a real, correct solution to *that day's specific problem* — and every one of them was also a narrower version of something more general that today finally gets named and built in full: **idempotency keys** and **distributed locks**, done properly, for keeps, on a system where getting them wrong means real money.

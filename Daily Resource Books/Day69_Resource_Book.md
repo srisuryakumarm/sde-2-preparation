@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day69_Missing_Dual_Write_and_Transactional_Outbox_MicroPrimer.md](Day69_Missing_Dual_Write_and_Transactional_Outbox_MicroPrimer.md) — Dual-Write Problem and Transactional Outbox Pattern (≈ 30 min)
+
+---
+
 ## Recap
 
 Yesterday's Concept Card established *why* graphs need an explicit `visited` structure, and both problems used it in its simplest form — permanently marking a cell so it's never reconsidered. Today's first problem, Clone Graph, is the first one this series has posed where a **cycle is not just theoretically possible but is exactly the thing the algorithm has to survive** — a graph with a cycle, traversed the naive way, would recurse forever. Today's second problem introduces **coloring** — a new use of `visited` that stores more than a boolean, and directly sets up an extra-practice problem that extends the same idea one step further.

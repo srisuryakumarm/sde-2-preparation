@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day67_Missing_JWT_Auth_Fundamentals_Primer.md](Day67_Missing_JWT_Auth_Fundamentals_Primer.md) — JWT Authentication & Authorization Fundamentals (≈ 60 min)
+> 2. [Day67_Missing_JJWT_API_Alignment_MicroPrimer.md](Day67_Missing_JJWT_API_Alignment_MicroPrimer.md) — JJWT 0.12+ API Migration & Parser Alignment (≈ 15 min)
+
+---
+
 ## Recap
 
 Backtracking has now run five straight days across two weeks — opened Week 9, Day 61 (include/exclude, Subsets), continued through swap-based (Permutations), forward-index (Combinations), duplicate-skip via `used[]` (Permutations II), then this week's forward-index-with-repetition (Combination Sum), duplicate-skip translated into forward-index form (Combination Sum II), external-lookup string-building (Letter Combinations), counter-gated string-building (Generate Parentheses), and grid-DFS (Word Search, Palindrome Partitioning). Today closes it at 12/12 required problems with two final applications — neither introduces a new backtracking mechanism. Subsets II directly reuses yesterday-but-one's duplicate-skip translation; N-Queens combines the include/exclude shape with a new validity-checking structure (columns and diagonals tracked via `HashSet`).

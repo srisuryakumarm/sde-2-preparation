@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 The platform has had a working **metrics** pipeline since Week 11 — Micrometer instrumentation through `/actuator/prometheus`, scraped by Prometheus, visualized in Grafana (Days 76–77). Micrometer was established there specifically as **a facade** over a metrics backend. Today reuses that exact framing for a *second*, genuinely different Micrometer module — **Micrometer Tracing** — which is a facade over a *tracing* backend the same way the metrics module is a facade over Prometheus, but answers a different question entirely (Part 1 below is explicit about which). Today also reaches back to Spring Cloud Gateway (Week 10, Day 66) as where a trace begins, Kafka's pub/sub mechanics and Saga Choreography (Week 7, Day 48; Week 10, Day 70) for tracing's one genuine blind spot, and Idempotency Keys (Week 19, Day 130) for the afternoon's API design work.

@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day35_Missing_Task_CRUD_In_Memory_Primer.md](Day35_Missing_Task_CRUD_In_Memory_Primer.md) — Task CRUD in todo-api (In-Memory Implementation First) (≈ 2 hrs 30 min)
+
+---
+
 ## Recap
 
 Yesterday delivered two separate linked-list techniques — iterative reversal, and fast/slow middle-finding — largely independently. Today's first problem combines them directly, back to back, with no re-explanation of either mechanism, only the combination itself. The second problem introduces one small, genuinely new technique (a dummy head) that then gets reused immediately in both of today's extra-practice problems. This is also the last day of the week: a full consolidation closes out the file below, tallying Binary Search's actual close-out against what was planned.

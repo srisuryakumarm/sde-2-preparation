@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day68_Missing_Money_BigDecimal_and_Avro_Schema_Fix_MicroPrimer.md](Day68_Missing_Money_BigDecimal_and_Avro_Schema_Fix_MicroPrimer.md) — Money in Java (BigDecimal) & Avro Schema Design (≈ 30 min)
+
+---
+
 ## Recap
 
 Backtracking closed yesterday at a full 12/12. Today opens **Graphs (BFS/DFS)** — genuinely new anywhere in this series, not a variant of anything already built. Every tree traversed since Day 46 (Trees), Day 50 (BSTs), and Day 59 (Tries) shared one quiet, load-bearing property: **a tree has exactly one path between any two nodes, and no cycles.** That's *why* none of those traversals ever needed to track which nodes had already been visited — it was structurally impossible to revisit one. A graph drops that guarantee. Today makes that difference explicit, and everything that follows for the next three days builds on it.

@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day47_Missing_Kafka_Local_Setup_MicroPrimer.md](Day47_Missing_Kafka_Local_Setup_MicroPrimer.md) — Run Kafka Locally via Docker KRaft Mode (No ZooKeeper) (≈ 45 min)
+> 2. [Day47_Missing_Testcontainers2_Alignment_MicroPrimer.md](Day47_Missing_Testcontainers2_Alignment_MicroPrimer.md) — Testcontainers 2.x and @ServiceConnection on Boot 4.1 (≈ 15 min)
+
+---
+
 ## Recap
 
 Day 46 built the universal recursive template — base case for `null`, combine `left`/`right` results — against a single tree. Today extends the exact same template to **two** trees at once: Same Tree compares two independent trees directly; Symmetric Tree compares a tree against its own mirror image, which turns out to be Same Tree's identical logic in disguise. Today is also the first day this week to add extra practice, now that Trees is no longer brand new (mirroring Day 41's precedent for Monotonic Stack, which similarly withheld extras on its own opening days).

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Tic-Tac-Toe (Day 108) needed no pattern. Vending Machine (Day 109) needed State, genuinely. Today's Parking Lot needs neither — a third data point in the same running theme, and the last new system before Parking Lot itself becomes the two-day centerpiece of this week (single-threaded core today, concurrency tomorrow). Today also opens the theory this system exists partly to motivate: **Composition over Inheritance**, made concrete through an actual refactor rather than taught in the abstract.

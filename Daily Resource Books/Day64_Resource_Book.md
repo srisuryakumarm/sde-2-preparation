@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day64_Missing_Resilience_Patterns_Timeouts_Retries_Backoff_Jitter_and_Bulkheads_MicroPrimer.md](Day64_Missing_Resilience_Patterns_Timeouts_Retries_Backoff_Jitter_and_Bulkheads_MicroPrimer.md) — Resilience Patterns — Timeouts, Retries with Jitter, Bulkheads (≈ 40 min)
+
+---
+
 ## Recap
 
 Day 63 closed Week 9 with Backtracking sitting at 4/12 required problems — Subsets (include/exclude), Permutations (swap-based), Combinations (forward-index), and Permutations II (forward-index... actually swap-based + a duplicate-skip layered on top: `!used[i-1]`, proven via a full `[1,1,2]` trace). Zero extra practice was added anywhere in Week 9 — Backtracking's own opening day (Day 61) correctly withheld extras per this series' standing precedent, and Days 62–63 withheld them too, for reasons specific to each day (a dense Week 10 required ladder already ahead, and one live collision — LC 17 — actually caught and avoided, not just a hypothetical worry).

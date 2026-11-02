@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day37_Missing_Concurrency_Fundamentals_Primer.md](Day37_Missing_Concurrency_Fundamentals_Primer.md) — Concurrency Fundamentals — Race Conditions, synchronized, Visibility & CAS (≈ 75 min)
+
+---
+
 ## Recap
 
 Yesterday closed out the cycle-detection sub-family of pointer tricks. Today's two problems are a different flavor entirely — both are still "two pointers on a linked list," but the mechanism is a *fixed offset* between them (Remove Nth From End) and a *synchronized parallel walk with carried state* (Add Two Numbers), rather than a speed difference. Both reuse the dummy-head technique from Day 35 directly.

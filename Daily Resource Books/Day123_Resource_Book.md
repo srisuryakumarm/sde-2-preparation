@@ -6,6 +6,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day123_Missing_Bloom_Filters_and_Probabilistic_Data_Structures_MicroPrimer.md](Day123_Missing_Bloom_Filters_and_Probabilistic_Data_Structures_MicroPrimer.md) — Bloom Filters and Probabilistic Data Structures (≈ 45 min)
+
+---
+
 ## Recap: what today is
 
 Redis has been running in `todo-api`'s Docker Compose stack since Week 6 (Day 44) as pure infrastructure, and Days 121–122 borrowed a handful of its commands narrowly — a counter here, an existence check there — for one job each, without ever stopping to look at what Redis actually *is*. Today closes that gap: the full picture of what a distributed cache is for, what Redis specifically offers beyond a plain key-value store, and the one failure mode (Thundering Herd) that catching-in-front-of-a-database can introduce if you're not deliberate about it. Today also reaches back further than Days 121–122 did — Consistent Hashing, taught in full back in Week 9, Day 60, gets reused here exactly as it was built, not re-derived.

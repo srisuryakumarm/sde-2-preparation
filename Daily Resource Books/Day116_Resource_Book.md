@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 115 built Splitwise on Strategy (applied for real, for the first time) and proved a genuine algorithm — dual-heap greedy settlement — was hiding underneath what looked like a plain expense-tracking system. Today opens BookMyShow, a two-day system split deliberately in half: **today is design only**, a single-threaded booking flow that will pass every single-threaded test written against it. **No new pattern gets introduced today.** The entire point of today is building something that looks complete and correct — and then, in the theory block, showing precisely why it isn't, without fixing it yet. The fix is tomorrow.

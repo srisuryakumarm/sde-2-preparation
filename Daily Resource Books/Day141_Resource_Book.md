@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day141_Missing_SDE2_Engineering_Process_Design_Docs_Estimation_and_Postmortems_Primer.md](Day141_Missing_SDE2_Engineering_Process_Design_Docs_Estimation_and_Postmortems_Primer.md) — SDE-2 Engineering Process — Design Docs, Estimation, Postmortems (≈ 60 min)
+
+---
+
 ## ⚠️ A Note on This Week's Shape — Read Once, Applies All Week
 
 Every Resource Book since Day 1 has been built around the same spine: a data structure or algorithm, then LeetCode problems that exercise it, brute-force through optimized, with extra reps added beyond what the plan requires. Week 21 has **no LeetCode problems anywhere in it** — zero, confirmed directly against `Week_21_Revised.md`'s full content, the same way Weeks 16–20 each had zero. This is the fifth non-DSA week in a row, and the last week of the series entirely.

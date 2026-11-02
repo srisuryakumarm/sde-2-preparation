@@ -6,6 +6,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day124_Missing_Time_Ordering_Gossip_CRDTs_and_Multi_Region_DR_Primer.md](Day124_Missing_Time_Ordering_Gossip_CRDTs_and_Multi_Region_DR_Primer.md) — Time, Clocks, Ordering, Gossip, CRDTs, and Disaster Recovery (≈ 60 min)
+
+---
+
 ## Recap: what today is
 
 Day 120's URL Mapping table got sharded by short-code hash. Day 126, coming up, shards BookMyShow by city. Every one of Week 18's designs so far has quietly assumed something Weeks 1–17 never had to confront: a single database's auto-increment primary key **only guarantees uniqueness within that one database.** The moment a table is sharded across several databases, two different shards can each independently auto-increment from 1 — and now two completely different rows, on two different shards, claim the identical ID. Today is the topic that problem forces into existence: how do you generate an ID that's guaranteed unique **without** a single central counter to coordinate through.

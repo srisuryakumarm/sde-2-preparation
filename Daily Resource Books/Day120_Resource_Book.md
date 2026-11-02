@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap: what today is
 
 Day 119 closed the LLD phase at ten complete systems and five mocks deep. Along the way, Day 118 showed you the *shape* of the System Design framework — five step names, no depth, deliberately — while building Food Delivery. Today is where that shape gets filled in for real, for the first time, against a genuinely new kind of problem: not "design a class hierarchy for one process," but "design a system that runs across many machines, serving requests you can't predict the volume of in advance."

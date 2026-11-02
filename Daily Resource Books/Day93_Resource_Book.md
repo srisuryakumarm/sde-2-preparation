@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday built State Machine DP from zero and used it twice: a 2-state machine (`hold`/`cash`) for Transaction Fee, extended to 3 states (`hold`/`sold`/`rest`) for Cooldown — with the extra state existing specifically to structurally forbid one illegal transition (buying the day after a sale). Both machines allowed **unlimited** transactions.

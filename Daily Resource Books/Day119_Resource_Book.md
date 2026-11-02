@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day119_Missing_Back_of_Envelope_Estimation_Primer.md](Day119_Missing_Back_of_Envelope_Estimation_Primer.md) — Back-of-the-Envelope Estimation for System Design (≈ 60 min)
+> 2. [Day119_to_148_Professional_Mock_Calibration.md](Day119_to_148_Professional_Mock_Calibration.md) — Professional Mock Calibration Track [Post-LLD Checkpoint 1]
+
+---
+
 ## Recap
 
 Day 118 reused Strategy a second time and drew the precise line between its constructor-config heuristic and its actual definition, then previewed — deliberately shallow — the System Design framework Week 18 spends real time on. Today closes the LLD phase: the tenth and final system, a fifth and final mock interview, and a full consolidation of everything Weeks 16–17 built together. No new pattern, no DSA revision block — today opens with a self-check instead.

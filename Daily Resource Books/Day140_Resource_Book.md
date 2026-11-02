@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day140_Missing_AI_Assisted_Coding_Rounds_and_Working_With_AI_Tools_Primer.md](Day140_Missing_AI_Assisted_Coding_Rounds_and_Working_With_AI_Tools_Primer.md) — AI-Assisted Coding Rounds and Working With AI Tools (≈ 40 min)
+> 2. [Day140A_Tell_Me_About_Yourself_Pitch.md](Day140A_Tell_Me_About_Yourself_Pitch.md) — Tell Me About Yourself: SDE-2 Pitch Practice (≈ 45 min)
+
+---
+
 ## Recap
 
 Today doesn't introduce new mechanisms — it's the week's synthesis, and it reaches back further than any other single day this series. The self-check draws directly on **Saga Choreography** (Week 10, Day 70) versus **Two-Phase Commit** (Week 12, Day 79); **Spring Cloud Gateway** and **Token Bucket rate limiting** (Week 10, Days 66, 68) plus the **Redis+Lua distributed limiter** (Week 18, Day 121); and **Docker Compose** (Week 7, Day 44) versus **Kubernetes** (Week 15, Day 99) plus **Helm** (Day 135). The at-scale exercise reaches back to all **sixteen HLD systems** (Weeks 18–19) and the **5-step HLD framework's Estimation and Bottlenecks steps** those systems were each already put through. And the bottleneck analysis is simply a close, evidence-based reading of Day 134's baseline and Day 138's three chaos experiments — nothing here is new; everything here is finally being asked to answer for itself at once.

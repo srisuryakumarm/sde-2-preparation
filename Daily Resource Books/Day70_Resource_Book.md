@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day70_Missing_Spring_Security_Essentials_Primer.md](Day70_Missing_Spring_Security_Essentials_Primer.md) — Spring Security Architecture & Filter Chains (≈ 45 min)
+> 2. [Day70_to_138_Infrastructure_Buffer_Days.md](Day70_to_138_Infrastructure_Buffer_Days.md) — Infrastructure Buffer Days Strategy [Post-Week 10 Consolidation]
+
+---
+
 ## Recap
 
 Sunday, lighter hours by design. Before today's new material: the plan's own self-check — pick one Backtracking problem from this week (Combination Sum II or N-Queens are the two with the most independent reasoning to reconstruct) and solve it cold, no notes, before reading further. If either one needs the book open to get through, that's useful information now, not a problem to discover mid-interview later.

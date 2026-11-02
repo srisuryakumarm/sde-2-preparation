@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## ⚠️ A note on today's title, before anything else
 
 `Week_08_Revised.md`'s header for today reads "Heaps Continue, and Spring Cloud Config Wrap-Up" — but the plan's actual body for Day 55 contains only a DSA Block and a Career Block; there's no Theory or Project block content describing what a "Spring Cloud Config Wrap-Up" would actually cover. This is worth naming directly rather than either silently ignoring the title or inventing new theory content that isn't in the plan: **today's book follows the plan's actual body**, which means no new backend theory today. If a genuine Spring Cloud Config Server deep-dive (the centrally-managed, Git-backed, `@RefreshScope`-capable version briefly named on Day 51, as distinct from the profiles mechanism actually built that day) is wanted later, that would need to be a deliberately scheduled addition — not something to retrofit into today's already-full DSA agenda based on a title that the plan's own body doesn't back up.

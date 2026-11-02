@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 > ⚠️ **Discrepancy Notice — Read This First.** `00_Curriculum_Map.md`'s own forward-looking notes (written before `Week_18_Revised.md` existed in its final form) refer to this self-check as **"Day 125's."** The actual `Week_18_Revised.md` places it here, on **Day 126**. This Resource Book follows the actual plan file — the authoritative source for what each day requires — and the self-check below is Day 126's. This is flagged explicitly, and flagged again in today's curriculum map update, exactly the way this map has flagged its own past day-labeling discrepancies (Food Delivery/Hotel Booking, the Week 16 day range) rather than silently resolving it either way.
 
 ## Recap: what today is

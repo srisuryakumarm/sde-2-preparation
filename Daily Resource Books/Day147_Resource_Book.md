@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 146 closed out the technical review cycle and finalized the resume, specifically resolving the DSA-count question in favor of the verifiable 249 (or the 197-assigned-plus-extra breakdown) rather than the plan's own unreconciled "213." Everything today builds on that decision directly — your GitHub profile's public-facing numbers need to match whatever the resume now says, not introduce a third figure.

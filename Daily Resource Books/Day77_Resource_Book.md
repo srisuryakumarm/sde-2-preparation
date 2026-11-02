@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day77_Missing_OAuth2_OpenID_Connect_and_SSO_Primer.md](Day77_Missing_OAuth2_OpenID_Connect_and_SSO_Primer.md) — OAuth 2.0, OpenID Connect (OIDC), and SSO (≈ 75 min)
+
+---
+
 ## Recap
 
 Union-Find sits at 6/7 required after four straight days of it — a redundant edge, a component count, an equation contradiction, a removal formula, an index rearrangement, an email merge. Today's final required problem asks one more connectivity question, then the week pivots: `UnionFind` stops being *the thing being learned* and becomes *a tool reused inside something new* — Kruskal's Algorithm, for Minimum Spanning Trees. That shift — from "here's a structure" to "here's an algorithm that calls that structure as a subroutine" — is itself worth noticing, since it's exactly what Week 12 will do again with Dijkstra's and Heaps.

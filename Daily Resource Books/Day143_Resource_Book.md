@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## ⚠️ A Gap Worth Flagging Now, Not Discovering on Day 145
 
 Every story this week carries an explicit competency label in the plan — Story 1 → Ownership, Story 2 → Conflict & Disagreement, and so on — except one. Story 6 ("a time you resolved a production outage") is the single story `Week_21_Revised.md` doesn't tag with a target competency. Worth checking whether that's just an omission or something to actively steer, rather than assuming it doesn't matter:

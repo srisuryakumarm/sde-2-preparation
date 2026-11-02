@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Stacks/Monotonic Stack closed yesterday at 14 distinct problems. Today opens an entirely new DSA pattern — Trees — which will run for the rest of this week and into next (closing Week 8, Day 53, at 15 required problems). Nothing about Stacks carries forward directly; what *does* carry forward is recursion (Day 8) and the self-referential node shape Linked Lists have used since Week 5 — today extends that shape from one `next` reference to two, `left` and `right`. On the theory side, Mockito builds directly on yesterday's JUnit 5 foundation.

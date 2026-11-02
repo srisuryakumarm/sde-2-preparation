@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 114 reused State a third time and introduced SCAN/LOOK dispatch, proven — not just claimed — to beat naive FIFO by more than 2x on a worked example. Today reuses a different pattern for the first time in this series' actual system-building: **Strategy**, taught conceptually on Day 107 (the `PercentageDiscount(0.10)` example, and directly contrasted against State the same week) but never yet chosen as the pattern actually implementing a full LLD system. Today it is. Today also opens the theory block's central claim for this stretch of the series — that a "simple" LLD problem can be hiding a real algorithm underneath — with Splitwise's debt-settlement logic as the first proof of it.

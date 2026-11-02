@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 This week ran two patterns end to end: Dijkstra's Algorithm, opened and closed within three days, and Dynamic Programming, opened and now four days into a run that continues through next week's entire leave week. Today closes Week 12 with two more genuinely new DP shapes — a dictionary-gated segmentation problem, and the week's first **unbounded** problem, where a single denomination can be reused without limit, a constraint none of this week's earlier problems had.

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Dijkstra's Algorithm closed yesterday. Today opens Dynamic Programming — by problem count, the single largest pattern in this entire plan (33 required problems, spanning this week and next). It is not, however, an entirely unfamiliar idea being dropped in cold. You've met its central move — "build today's best answer from yesterday's best answer" — twice already, without the formal name: Kadane's Algorithm (Week 3, Day 21) tracked a running best ending at each position, built from the running best one position back; Floyd-Warshall (Week 11, Day 73) built each `k`-th layer's all-pairs distances from the `(k-1)`-th layer's. Today names that shape and gives it a rigorous foundation.

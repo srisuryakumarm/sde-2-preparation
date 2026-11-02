@@ -9,6 +9,14 @@
 
 ---
 
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day42_Missing_OpenAPI_Swagger_MicroPrimer.md](Day42_Missing_OpenAPI_Swagger_MicroPrimer.md) — OpenAPI / Swagger UI Setup for todo-api (≈ 20 min)
+> 2. [Day42_Missing_ThreadPools_CompletableFuture_and_Virtual_Threads_Primer.md](Day42_Missing_ThreadPools_CompletableFuture_and_Virtual_Threads_Primer.md) — ThreadPools, CompletableFuture, and Java 21 Virtual Threads (≈ 75 min)
+> 3. [Day42_to_140_Theory_Spaced_Repetition_Track.md](Day42_to_140_Theory_Spaced_Repetition_Track.md) — Theory Spaced Repetition Track [Sunday Weekly Review Schedule]
+
+---
+
 ## Recap
 
 The week opened with cycle detection and closes with two more Monotonic Stack problems — both direct reapplications of the index-based invariant from Days 40–41, with no new mechanism to learn today. That leaves today genuinely lighter on new material, which is exactly the point of a consolidation day: today is for confirming the week's heaviest lift — Linked Lists closing, Stacks/Monotonic Stack opening, and a full second track of Java concurrency — actually landed, not for adding to it.

@@ -8,6 +8,15 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day40_Missing_Flyway_Rationale_MicroPrimer.md](Day40_Missing_Flyway_Rationale_MicroPrimer.md) — Why Flyway Database Migrations (≈ 15 min)
+> 2. [Day40_Missing_Flyway_on_Boot41_MicroPrimer.md](Day40_Missing_Flyway_on_Boot41_MicroPrimer.md) — Flyway on Boot 4.1 & the "table already exists" Trap Fix (≈ 15 min)
+> 3. [Day40_Missing_Transaction_Isolation_Levels_and_MVCC_Primer.md](Day40_Missing_Transaction_Isolation_Levels_and_MVCC_Primer.md) — Transaction Isolation Levels, Anomalies, and MVCC (≈ 60 min)
+
+---
+
 ## ⚠️ Overlap Notice — Read This First
 
 One of today's two required problems is a repeat — flagged in `00_Curriculum_Map.md` since Week 1.

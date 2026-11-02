@@ -7,6 +7,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Week 14 closed Dynamic Programming entirely (35/35 required across three weeks) and then opened Bit Manipulation from zero: place value, two's complement derived from Week 2's overflow proof, all seven bitwise operators, XOR's algebraic properties, `n & (n-1)` (clears the lowest set bit) and `n & (-n)` (isolates it), and per-bit frequency counting. That run closed at 8/10 required + 1 extra (Hamming Distance), with exactly two required problems deliberately deferred to today — Reverse Bits and Maximum XOR of Two Numbers in an Array — because the second of those two needs something Bit Manipulation alone can't supply: the Trie structure from Week 9. Today closes both patterns in a single problem.

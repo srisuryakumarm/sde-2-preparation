@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 141 established the STAR mechanism (S/T/A/R timing split, the passive-"we" trap, quantifying a Result without an obvious number) and the six-competency map, then built Story 1 (Ownership) and Story 2 (Conflict & Disagreement). Today reuses that mechanism without re-explaining it — the worksheets below assume yesterday's shape is already familiar.

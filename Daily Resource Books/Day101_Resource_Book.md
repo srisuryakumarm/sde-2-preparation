@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday opened Segment Trees from zero — build/update/query, all O(log n), closing the gap neither brute force nor Prefix Sum can close alone — and solved Range Sum Query - Mutable, a Segment Tree used in the most direct way possible: indexed by array *position*, aggregating sums. Yesterday also opened Design Patterns with Singleton, in full depth: the private-constructor-plus-static-accessor shape, the concurrency bug Double-Checked Locking has without `volatile`, and Enum Singleton as the safer modern default.

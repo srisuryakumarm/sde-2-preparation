@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day65_Missing_Reactor_Basics_and_Gateway_Flavors_Primer.md](Day65_Missing_Reactor_Basics_and_Gateway_Flavors_Primer.md) — Project Reactor Basics (Mono, Flux) for Spring Cloud Gateway (≈ 75 min)
+
+---
+
 ## Recap
 
 Yesterday's two problems both *selected elements from an array* — the recursion's job was choosing which candidates belong in a combination. Both of today's problems build a **string**, one character at a time, from a small, per-position set of choices — a genuinely different shape for the same choose/explore/un-choose template, not a variant of yesterday's forward-index mechanism. On the platform side: yesterday's Resilience4j handled what happens when a downstream call *fails*; today's Feign handles *making* that downstream call in the first place, declaratively.

@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day75_Missing_JVM_Internals_GC_and_Troubleshooting_Primer.md](Day75_Missing_JVM_Internals_GC_and_Troubleshooting_Primer.md) — JVM Internals — Memory, GC (G1/ZGC), Class Loading, and JMM (≈ 90 min)
+
+---
+
 ## Recap
 
 Yesterday built `UnionFind` from scratch and used it for the pattern's two most direct applications — detecting a redundant edge, counting components from a matrix. Today's two required problems are less obviously Union-Find on first read: neither hands you an edge list up front. Both require recognizing a connectivity structure hiding inside a differently-shaped problem statement — a real equation-satisfiability puzzle, and a physical removal-ordering puzzle — which is a more realistic test of the pattern than yesterday's more direct setups.

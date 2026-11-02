@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day58_Missing_Replication_Basics_Before_CAP_MicroPrimer.md](Day58_Missing_Replication_Basics_Before_CAP_MicroPrimer.md) — Database Replication Basics — Leader-Follower, Sync vs Async (≈ 30 min)
+
+---
+
 ## Recap
 
 Yesterday added greedy-scheduling to the heap's repertoire: always act on the single best candidate available right now. Today closes Heaps with two more roles that don't reduce to yesterday's greedy-placement shape at all: a heap pair that maintains a **running statistic** over an unbounded stream (rather than committing to output immediately), and a heap that **coordinates a merge** across several already-sorted sources at once. Both problems build directly on Day 54's core heap mechanism and Day 5's `PriorityQueue`-with-comparator usage (first named Day 17, first used Day 26's Meeting Rooms II) — no new heap machinery, only new *shapes* to apply it to.

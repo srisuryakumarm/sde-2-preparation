@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 108 ran the 5-step framework live for the first time and correctly concluded no pattern was needed. Today runs it again, against a genuinely harder system, where a pattern **is** the point: State (introduced Day 107, applied only to a small `TrafficLight` example there) gets its real system-level test. The framework's five steps aren't re-explained today — Day 106 taught why each one matters, Day 108 proved they work end to end; today just runs them, faster, against a bigger system.

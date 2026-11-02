@@ -6,6 +6,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day54_Missing_Concurrency_Utilities_Semaphore_ReadWriteLock_and_Concurrent_Collections_MicroPrimer.md](Day54_Missing_Concurrency_Utilities_Semaphore_ReadWriteLock_and_Concurrent_Collections_MicroPrimer.md) — java.util.concurrent Beyond Locks — Semaphore, ReadWriteLock, Barriers (≈ 40 min)
+
+---
+
 ## Recap: what today is
 
 Trees closed yesterday. Heaps opens today, completely fresh — no dependency on anything from this week's Tree work, the same clean pattern-boundary shape Greedy & Intervals used back in Week 4 (opened and, in that case, also closed within the same week).

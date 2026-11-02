@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 113 built the ATM on State (reapplied, zero new mechanism) and Chain of Responsibility (new — a naive mutate-as-you-go dispatcher shown broken, then fixed with a read-only check phase ahead of a commit phase). Today reuses State a *third* time — same mechanism, a third system — and pairs it with a genuinely new idea that has nothing to do with GoF's catalog: SCAN/LOOK, an OS disk-scheduling algorithm repurposed for elevator dispatch. Today also opens this series' third mock interview, in a format not used before: Machine Coding.

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday built the Trie's core walk (`insert`/`search`/`startsWith`) and a variant that accumulates values along the path. Today extends the *walk* itself in two directions that don't change the underlying node structure at all: constraining which paths are legal to walk down in the first place (today's first problem), and allowing a single step to branch into every possible child rather than one specific one (today's second problem). Both reuse yesterday's `TrieNode` shape completely unchanged.

@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day95_Missing_Kubernetes_Local_Toolchain_Setup_MicroPrimer.md](Day95_Missing_Kubernetes_Local_Toolchain_Setup_MicroPrimer.md) — Install & Start Local Kubernetes (kubectl, Minikube, Helm) (≈ 45 min)
+
+---
+
 ## Recap
 
 Dynamic Programming closed yesterday at 35/35. Today opens **Bit Manipulation** — a genuinely new top-level pattern, built from zero the way Trees, Heaps, Tries, Backtracking, Graphs, Union-Find, and Dijkstra's Algorithm each were.

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Grid DP opened and closed yesterday in a single day — four problems, all built on `dp[i][j]` combining a small fixed set of spatial neighbors. Today opens String DP, and the concept card's own framing makes the connection explicit: the two dimensions stop being grid coordinates and become *positions in two different strings* (or one string against itself, for palindrome problems). The `dp[i][j]`-from-neighbors mechanism transfers directly; what's new is *why* two cells are related — a character match or mismatch, not spatial adjacency.

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday (Day 84) closed with Coin Change — the pattern's first genuinely *unbounded* problem, and the first time this series' `dp[]` definition didn't track *which* coins built a sub-answer, only how many were used. Day 84 also flagged something explicitly, without resolving it: for **minimizing** (fewest coins to make an amount), the order of the two loops (coins outer vs. amount outer) doesn't matter. It was flagged, at the time, that a future **counting** problem would need a specific order, for the opposite reason. Today is that day — Coin Change II asks "how many *combinations*," and the fix isn't optional polish, it's the difference between a correct answer and a silently wrong one that still compiles and runs.

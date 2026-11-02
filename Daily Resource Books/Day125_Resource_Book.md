@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap: what today is
 
 Every design this week has quietly leaned on a question it never actually answered. Day 121's rate limiter, Day 123's cache, Day 124's ID generator all assumed "spread state across multiple machines" was simply achievable. Further back, Replication Models (Week 9, Day 61) taught single-leader replication's mechanics and its CAP trade-offs — but never answered what happens the moment the leader itself dies. Today closes that gap directly: how a cluster of machines agrees on who's in charge, safely, even when machines fail at arbitrary, unpredictable moments. It's also the day that reveals something you've been depending on since Week 15 without ever naming it — Kubernetes' Control Plane (Day 99) has been using exactly this mechanism, underneath, the entire time.

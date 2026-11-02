@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day62_Missing_Boot41_Multimodule_Parent_POM_MicroPrimer.md](Day62_Missing_Boot41_Multimodule_Parent_POM_MicroPrimer.md) — Multi-Module Parent POM for scalable-ecommerce-platform (≈ 30 min)
+
+---
+
 ## Recap
 
 Yesterday's Subsets used include/exclude branching over a fixed set of positions — every element gets exactly one binary decision, independent of every other element. Today's Permutations is deliberately **not** a repeat of that shape: every position's choice depends on which elements earlier positions already claimed, so the mechanism has to change from "two static choices per element" to "swap a candidate into position, recurse, swap back." Same backtracking template (choose → explore → un-choose) from Day 61, applied to a genuinely different decision structure.

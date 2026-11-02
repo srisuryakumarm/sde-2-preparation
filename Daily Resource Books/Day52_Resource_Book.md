@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap: what today is
 
 Yesterday's Lowest Common Ancestor leaned entirely on the BST ordering invariant to compute a single direction at every step. Today asks the same question — find the LCA of two nodes — on a **plain** binary tree, where that invariant doesn't exist. Both children genuinely have to be searched, and the results combined; there's no shortcut left to exploit. Today's second problem, Serialize and Deserialize Binary Tree, isn't new from nothing either — Day 47's brute-force approach to Same Tree already used explicit null markers to serialize two trees and compare the resulting strings. Today builds the other half of that idea: given a serialized string, rebuild the actual tree.

@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day33_Missing_Validation_and_Error_Handling_Primer.md](Day33_Missing_Validation_and_Error_Handling_Primer.md) — Bean Validation (@Valid) and Global Error Handling (≈ 2 hrs)
+
+---
+
 ## Recap
 
 Yesterday made "binary search on the answer" explicit, tracing it back to Day 28's First Bad Version. Today closes Binary Search at 11 required problems with one more on-the-answer rep, adds two extra reps to make the pattern fully reflexive (the plan itself calls this "the one people miss cold in interviews," which is exactly the kind of signal that justifies going beyond the plan's 1–2 listed reps), and then steps back for a full review of everything the unit covered — five straight days of variations on one template family.

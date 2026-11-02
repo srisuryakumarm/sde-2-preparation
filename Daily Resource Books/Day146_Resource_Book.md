@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day146A_Offer_Negotiation_Practice.md](Day146A_Offer_Negotiation_Practice.md) — Offer Negotiation Practice & Strategy (≈ 60 min)
+
+---
+
 ## Recap
 
 Day 145 closed the behavioral track entirely — all eight stories audited for competency coverage, then mapped against Google's Googleyness, Databricks' principles, and Atlassian's values, with a sixth LLD mock behind you. Today shifts fully to technical retention and the resume — no new stories, no new behavioral content.

@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day73_Missing_AWS_Core_Services_Map_for_System_Design_Primer.md](Day73_Missing_AWS_Core_Services_Map_for_System_Design_Primer.md) — AWS Core Services Map for System Design (≈ 60 min)
+> 2. [Day73_Missing_AWS_EC2_RDS_MicroPrimer.md](Day73_Missing_AWS_EC2_RDS_MicroPrimer.md) — AWS EC2, RDS, and VPC Networking Fundamentals (≈ 25 min)
+
+---
+
 ## Recap
 
 Graphs sits at 12/12 required after today, closing a pattern that opened Day 68 with adjacency lists and the `visited` requirement, added 3-state coloring for directed-cycle detection Day 69, multi-source distance Day 70, topological sort Day 71, and reversed multi-source reachability Day 72. Today's two problems are deliberately the pattern's edge cases, not its center: one is BFS applied to a graph that's never actually built as a data structure (Word Ladder), and the other isn't a traversal at all (Floyd-Warshall) — closing the pattern with the two problems that best test whether "graph" was understood as an abstraction, not just an adjacency list.

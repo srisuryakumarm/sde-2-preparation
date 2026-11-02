@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day43_Missing_Database_Indexing_Composite_Covering_and_Reading_EXPLAIN_Primer.md](Day43_Missing_Database_Indexing_Composite_Covering_and_Reading_EXPLAIN_Primer.md) — Database Indexing — Composite, Covering, and EXPLAIN ANALYZE (≈ 50 min)
+
+---
+
 ## Recap
 
 Week 6 opened Stacks/Monotonic Stack (Day 39's concept card, Day 40–41's increasing/decreasing invariant and the amortized "each element pushed and popped at most once" argument) and got it to 7 of 12 required problems. Today and the next two days finish it off: five problems, three of them Hard, all reusing the same LIFO discipline and the same amortized argument — none of them re-derive it from scratch. (This week's overlap check against `00_Curriculum_Map.md` and `Week_08_Revised.md` came back clean — nothing below is a repeat, and nothing added here collides with what Week 8 requires.)

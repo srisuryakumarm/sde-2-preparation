@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday closed the algorithmic side of this series' DSA phase — merge sort and quicksort built from scratch, Quickselect applied to a familiar problem, and a full recall pass across every pattern covered since Week 1. Today opens a different kind of track entirely: **SQL**, using LeetCode's SQL problem set the same way this series has used its algorithmic problem set — as pattern-recognition practice, not just syntax practice.

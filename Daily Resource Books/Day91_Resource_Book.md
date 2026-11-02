@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 String DP closed yesterday at 9/9, plus Palindrome Partitioning II as an extension — a 1D DP over prefix length, gated by a precomputed range-validity table, which turns out to be exactly one step away from today's actual subject. Today opens Interval DP, the last new Dynamic Programming subtype this leave week touches, and closes it the same day — two required problems, one of which (Burst Balloons) needs the single trickiest reformulation trick this entire DP unit has required: reasoning about what happens *last* within a range, not first. This also closes leave week 2 entirely — seven days, four DP subtypes, 21 required problems plus six extra-practice problems chosen specifically to close gaps the plan's own required list, by design, couldn't cover alone.

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Two days in, String DP has built the `(m+1)×(n+1)` table convention, the "map each case to exactly which neighbor it reads" discipline (Edit Distance's three operations, Interleaving String's two sources), and the LCS-reverse trick. Today closes the subtype with three problems the plan itself marks Hard — Distinct Subsequences (counting, not matching), and the two most intricate pattern-matching recurrences this series will build: Wildcard Matching and Regular Expression Matching. They look similar on the surface (both handle a `*` wildcard) and are genuinely different mechanisms underneath — confusing the two is the single most common mistake candidates make when asked one right after having just solved the other, so the contrast is treated explicitly, not left implicit.

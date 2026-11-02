@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 1D DP closed yesterday at 14 problems, having built four lookback shapes, both knapsack flavors, and DP-gated backtracking. Today opens an entirely new DP subtype — Grid (2D) DP — and closes it the same day, all four required problems. This is possible precisely *because* the last six days built real fluency in the DP mindset (state `dp[]`'s meaning precisely, verify a recurrence against a trace, don't assume correctness on inspection) — today applies that same discipline across two dimensions instead of one, which turns out to be a smaller jump than it might sound.

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 State Machine DP closed yesterday at 4/4, adding a *situation* dimension to `dp[i]`. Today adds a different kind of dimension — not a situation, and not even an index in the usual sense: **the recursion itself is the loop**, and each tree node's postorder return value becomes the DP state.

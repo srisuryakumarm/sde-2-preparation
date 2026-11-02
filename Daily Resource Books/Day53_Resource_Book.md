@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap: what today is
 
 This is Trees' capstone day — one problem, genuinely hard, closing the pattern at 15 required problems (up from 11 in the original plan), plus a review exercise that asks you to state, precisely, the one thing that separated yesterday's two Lowest Common Ancestor problems. Median of Two Sorted Arrays is the problem the original plan promised on Day 21 and then never actually delivered anywhere in the remaining 99 days — it sat out until now specifically because it needs the divide-and-conquer intuition Day 51 just built, applied to a binary search that divides on a computed *partition point* rather than an array index.

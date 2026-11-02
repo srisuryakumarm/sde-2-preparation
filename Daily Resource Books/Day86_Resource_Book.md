@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday built 0/1 Knapsack from zero — Partition Equal Subset Sum, plus the decreasing-loop proof that keeps items from being reused. Today opens with Target Sum, which the plan itself flags as needing no new recurrence at all: a two-equation reduction lands it on *exactly* yesterday's subset-sum shape, now counting instead of a yes/no. Perfect Squares does the same move on the *other* side of the week — same unbounded-reuse shape as Coin Change (Day 84), different "coins." Both are, deliberately, low-new-content days on the concept side, precisely so today's real weight can go to Word Break II — the first problem this series has posed where two previously-*distinguished* patterns (Dynamic Programming and Backtracking, explicitly contrasted with each other back in Week 9, Day 61) now combine in one solution.

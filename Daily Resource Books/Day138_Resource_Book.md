@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 > ⚠️ **Flag, not a silent fix.** Today's plan describes itself as "deepening" a prior "single manual container kill" chaos test. `00_Curriculum_Map.md`'s detailed history doesn't corroborate a distinctly-logged chaos experiment anywhere before this week — the most plausible candidate is an informal check during Resilience4j's original introduction (Week 10, Day 64: confirming the circuit breaker actually trips when a dependency is stopped locally), small enough that it never became its own line item. Either way, it doesn't change today's actual work: the mechanism under real test today is the same Resilience4j Circuit Breaker taught in full on Day 64, regardless of how many times it was informally poked at before. Noted here and in the curriculum map, not silently assumed or silently corrected.
 
 ---

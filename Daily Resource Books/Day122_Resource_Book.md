@@ -6,6 +6,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day122_Missing_Redis_Operations_TTL_Eviction_Persistence_and_HA_MicroPrimer.md](Day122_Missing_Redis_Operations_TTL_Eviction_Persistence_and_HA_MicroPrimer.md) — Redis in Operation — TTL, Eviction Policies, Persistence, and HA (≈ 45 min)
+
+---
+
 ## Recap: what today is
 
 Two systems and two days of the 5-step framework are now behind you, applied to URL Shortener (Day 120) and formalized further for the rate limiter (Day 121). Today applies the same framework to a third, genuinely different kind of system — one whose hard problem isn't storage or throughput, but **fan-out to unreliable third parties** (push, email, and SMS providers you don't control, each with its own failure modes) — and then, for the first time this phase, that design gets pressure-tested out loud, against another person, on a clock. HLD Mock #1 isn't new theory; it's the first real check on whether Day 120's framework survives contact with actual interview pressure.

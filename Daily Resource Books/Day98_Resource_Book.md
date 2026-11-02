@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 This week built, in order: two's complement negation (`~x+1`, Day 95), XOR's cancellation properties (Day 95), `n&(n-1)` to clear the lowest set bit (Day 95, applied Days 95–96), and per-bit frequency counting as a mod-3 generalization of XOR (Day 97). Today combines the *first two* of those — negation and AND — into one final derived identity, then closes the week.

@@ -8,6 +8,14 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day32_Missing_HTTP_JSON_and_Running_a_Boot_App_Primer.md](Day32_Missing_HTTP_JSON_and_Running_a_Boot_App_Primer.md) — HTTP, JSON, and Running a Spring Boot Application (≈ 75 min)
+> 2. [Day32_Missing_Spring_MVC_REST_Endpoints_and_DTOs_Primer.md](Day32_Missing_Spring_MVC_REST_Endpoints_and_DTOs_Primer.md) — Spring MVC — REST Endpoints, DTOs, and Layering (≈ 2 hrs 15 min)
+
+---
+
 ## Recap
 
 Every binary search this week so far has searched over **array indices** — a rotated array, a boundary within a sorted array, a peak. Today's second problem changes what's being searched entirely: Koko Eating Bananas searches over a **range of possible answer values** (eating speeds), using a feasibility check instead of an array comparison. This isn't actually new — Day 28's First Bad Version (LC 278) was already exactly this shape, just with a boolean condition instead of a numeric one. Today makes that connection explicit and gives it real depth, since the plan itself flags it as "the one people miss cold in interviews." First, though, one more index-based variant: extending exact-match search to two dimensions.

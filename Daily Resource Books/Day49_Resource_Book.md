@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day49_Missing_JPA_Relationships_Fetching_and_N_Plus_1_Primer.md](Day49_Missing_JPA_Relationships_Fetching_and_N_Plus_1_Primer.md) — JPA Relationships, Lazy vs Eager Fetching, and N+1 Problem (≈ 75 min)
+
+---
+
 ## Recap
 
 Days 46–48 covered every DFS shape Trees needs for now — single-tree combination, two-tree comparison, and short-circuit/global-state recursion. Today introduces the pattern's other half entirely: **BFS**, level by level, using Day 4's `ArrayDeque` as a queue instead of the call stack. It doesn't extend Day 48's techniques — it's a fresh, iterative approach applied to the same `TreeNode` shape Day 46 built. Today also closes the week: a self-check, the week's DSA total, and what Week 8 inherits.

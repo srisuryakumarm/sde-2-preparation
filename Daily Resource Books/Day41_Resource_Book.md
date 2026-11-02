@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day41_Missing_Wire_Service_to_Repository_Primer.md](Day41_Missing_Wire_Service_to_Repository_Primer.md) — Wire TaskService to TaskRepository and @Transactional (≈ 2 hrs 30 min)
+
+---
+
 ## A Note on Today's Structure
 
 `Week_06_Revised.md` gives today only a DSA Block and a Career Block — no Theory or Project block, unlike every other day this week. That's carried through faithfully here, not an omission. It leaves genuine room in the day, and per Day 40's note, that room is used for the Monotonic Stack extra practice that was deliberately deferred rather than added on Day 40 itself (Monotonic Stack's opening day). Today is the natural place for it: the pattern is now established, not opening, and both of today's required problems reuse it directly.

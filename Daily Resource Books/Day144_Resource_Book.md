@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 143 built Stories 5 and 6 — the latter deliberately framed around Navigating Ambiguity to close what would otherwise have been the map's only uncovered competency — and covered high-volume, low-margin transaction economics as a cost-lens reframing of already-known tools (caching, sharding, rate limiting). Today's two stories complete the full set of eight; with Story 6 already filling the ambiguity gap, all six competencies now have at least one story mapped to them heading into tomorrow's audit.

@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day66_Missing_Kafka_Internals_Replication_Durability_and_Retention_MicroPrimer.md](Day66_Missing_Kafka_Internals_Replication_Durability_and_Retention_MicroPrimer.md) — Kafka Internals — ISR, acks=all, Retention, Compaction (≈ 45 min)
+
+---
+
 ## Recap
 
 Yesterday closed out this week's three string-building choice models (external-lookup, counter-based). Today returns to *structural* backtracking — one problem that searches a 2D grid, one that partitions a string — and both are genuinely lighter lifts than their surface difficulty suggests, because **today's first problem is almost entirely a recap.** Week 9, Day 61 built Word Search II (LC 212): a Trie combined with grid backtracking, using an overwrite-and-restore visited-marking technique explicitly flagged at the time as *"the established technique going forward for any grid-backtracking problem."* Today's Word Search (LC 79) is the single-word version of exactly that problem, minus the Trie. On the platform side, today assembles the single entry point every request will pass through: the Gateway.

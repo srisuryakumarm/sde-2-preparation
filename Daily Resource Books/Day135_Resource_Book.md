@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day135_Missing_Deployment_Strategies_12_Factor_and_IaC_MicroPrimer.md](Day135_Missing_Deployment_Strategies_12_Factor_and_IaC_MicroPrimer.md) — Deployment Strategies, 12-Factor App, and Infrastructure as Code (≈ 45 min)
+
+---
+
 ## Recap
 
 Yesterday you hand-wrote a Deployment and a Service manifest for each of the platform's four modules — eight files, every value hardcoded directly into the YAML. That was deliberate: today's entire lesson is "the same eight manifests, now parameterized," and the difference only means something if yesterday's raw version is fresh. Today also reuses Spring Cloud Gateway (Week 10, Day 66) as the thing being contrasted against a genuinely different, cluster-level concept — Kubernetes Ingress — so the two "gateway-shaped" ideas don't get silently merged into one.

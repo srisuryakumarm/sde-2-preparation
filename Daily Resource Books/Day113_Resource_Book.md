@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Week 16 closed with Library Management System (Day 112) and five days of hard evidence that the 5-step LLD framework, all ten Structural/Behavioral patterns, and the judgment to recognize *when a pattern doesn't fit* are all genuinely reflexive now — not something today needs to re-establish. Week 17 is the second half of the LLD phase: six more systems, three more mock interviews, closing with all ten systems done and five mocks deep before System Design even begins.

@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day127_Missing_Redis_SortedSets_and_Geo_MicroPrimer.md](Day127_Missing_Redis_SortedSets_and_Geo_MicroPrimer.md) — Redis Sorted Sets and Geo Commands (≈ 30 min)
+
+---
+
 ## Recap
 
 Day 126 closed Week 18 by putting BookMyShow under real load — city-sharding, a Redis TTL+Lua seat-hold reusing Day 121's atomicity pattern, and proactive cache warming as a deliberate extension of Day 123's reactive Thundering-Herd mitigations — then consolidated the week: the HLD 5-step framework (Requirements → Estimation → HLD → Detailed Design → Bottlenecks) applied three times and defended live under follow-up in Mock #2, all four rate-limiting algorithms, Redis's complete picture, Consistent Hashing and Sharding each reused a second time, Snowflake ID generation, and quorum/Raft/split-brain with etcd's role under Kubernetes named explicitly.

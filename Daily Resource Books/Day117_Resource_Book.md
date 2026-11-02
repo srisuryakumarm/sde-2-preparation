@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 116 built a booking flow that passed every single-threaded test and then proved, via an exact traced interleaving, that two users could both successfully hold the same seat — the identical check-then-act shape as Parking Lot's race (Day 111) and the ATM's check-then-commit assumption (Day 113). Today closes that gap two different ways: **pessimistic locking** (a direct extension of Day 111's per-object locking, plus a genuinely new database-level variant) and **optimistic locking** (a genuinely new named pattern, though its actual mechanism — compare-and-swap — is not new at all, just applied somewhere new). Today also introduces one new concurrency primitive, `CountDownLatch`, needed to make the 10-thread test *actually* prove what it claims to prove.

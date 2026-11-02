@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day112_Missing_DDD_and_Hexagonal_Architecture_Vocabulary_MicroPrimer.md](Day112_Missing_DDD_and_Hexagonal_Architecture_Vocabulary_MicroPrimer.md) — Domain-Driven Design (DDD) & Hexagonal Architecture (≈ 30 min)
+
+---
+
 ## Recap
 
 The week's fourth and final new system. Parking Lot proved a design can correctly need no pattern, twice over (Day 108's Tic-Tac-Toe, and Parking Lot's own Step 4 on Day 110); Vending Machine proved State when it's genuinely earned. Today's Library Management System adds a different, equally real design skill: **cleanly separating two concerns that a rushed design would happily tangle together** — searching a catalog, and managing what happens to a physical copy once it's found. It's also a shorter day by design (Sunday) — a self-check instead of new theory, one system instead of a system-plus-concept pairing, and the week's second mock interview closing out the week's live-practice count at two.

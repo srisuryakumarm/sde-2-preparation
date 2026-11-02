@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day133_Missing_HLD_Extension_Systems_KV_Store_Crawler_Message_Queue_and_Metrics_Primer.md](Day133_Missing_HLD_Extension_Systems_KV_Store_Crawler_Message_Queue_and_Metrics_Primer.md) — HLD Extension Systems — KV Store, Crawler, Message Queue, Metrics (≈ 90 min)
+
+---
+
 ## Recap
 
 Sixteen systems, five mocks, two weeks — today closes the HLD phase entirely with the system this whole arc has been quietly building toward since Day 127's deferred media-sharing note: Google Drive. Object storage is also the natural place to land the phase's last new data-integrity idea, content-addressable deduplication, and its last new consistency question, sync conflicts — a fitting close, since "how much inconsistency can this specific system actually tolerate" has been the thread running underneath Days 127 through 132 without ever being named as the single question it actually is.

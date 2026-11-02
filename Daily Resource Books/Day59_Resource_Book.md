@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Heaps closed yesterday at 10/10 required, 13/13 distinct. Today opens an entirely new structure — the Trie — built from two pieces already solid: **recursion** (Day 8, Week 2 — call stack, base/recursive case) and the **node-with-children shape** first built for `TreeNode` (Day 46, Week 7 — a self-referential structure with pointers to further nodes of the same type). A Trie is that exact shape, generalized: instead of exactly two named children (`left`, `right`), a `TrieNode` holds up to 26 — one slot per possible next character. Nothing about *recursing over a node-with-pointers structure* is new; only the branching factor and what each edge represents changes.

@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 128 closed with the series' first write-dominated system and a mock defending already-known material. Today is two systems in one day, each lighter than yesterday's single deep dive, and both are really extensions of ideas already on the table rather than fully new territory: Netflix's CDN story is Day 123's Cache-Aside pattern relocated to a geographically distributed edge tier, and its Thundering Herd risk (Day 123) resurfaces at global scale, complete with the same proactive-warming fix Day 126 already used. Instagram's fan-out problem is the direct, fully-solved version of a shape this series has now touched **three times** without solving it: Day 78 named "the celebrity problem" for sharding, Day 122's per-channel notification fan-out was a much smaller-scale cousin, and Day 127's hot-conversation partition risk flagged the same shape again just yesterday-before-yesterday. Today it finally gets a real answer.

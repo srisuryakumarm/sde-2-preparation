@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## ⚠️ Overlap Notice — Read This First
 
 Today's required Stack problem has a full overlap with earlier material — flagged in `00_Curriculum_Map.md` since Week 1 and carried forward through every intervening weekly check, finally landing on the week it actually matters for.

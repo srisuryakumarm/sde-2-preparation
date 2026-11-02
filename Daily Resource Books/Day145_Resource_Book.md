@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Day 144 completed Story 8, closing out the full set of eight — Ownership (×2, Stories 1 & 4), Conflict & Disagreement (Story 2), Failure & Learning (×2, Stories 3 & 5), Navigating Ambiguity (Story 6, deliberately framed that way per Day 143's gap flag), Cross-Functional Pushback (Story 7), and Technical Leadership (Story 8). Today does no new story-building — it audits what's already built, first against the company-agnostic map itself, then against three real, named frameworks your actual target companies use.

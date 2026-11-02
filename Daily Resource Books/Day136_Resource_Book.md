@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday's Helm chart has exactly one `values.yaml`, providing one set of defaults for every environment. Today layers three environment-specific files on top of that same, unmodified chart — the templates themselves don't change at all today, only which values feed them. This is also the day today's new material turns out to already have a direct ancestor: **Spring Profiles** (Week 8, Day 51) established the exact same idea — `spring.profiles.active` selects which profile-specific file's values layer on top of the shared `application.yml`, one build artifact, different runtime behavior per environment — one layer *up* the stack from where today's work happens. That citation isn't incidental; it's the throughline the whole day is organized around.

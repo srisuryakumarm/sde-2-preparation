@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day44_Missing_Redis_Basics_MicroPrimer.md](Day44_Missing_Redis_Basics_MicroPrimer.md) — Redis Basics for Docker Compose (≈ 20 min)
+
+---
+
 ## Recap
 
 Yesterday used the stack as a simulation tool — deferred, correctable state. Today returns to the strictly *monotonic* discipline from Day 40–41 (increasing/decreasing invariant, each element pushed and popped at most once) and applies it to the hardest problem shape it supports: Largest Rectangle in Histogram, followed by Maximal Rectangle, which reduces a 2D problem to n applications of the first. On the theory side, yesterday's single-container Docker basics extend today to orchestrating several containers together with Docker Compose.

@@ -6,6 +6,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap: what today is
 
 Yesterday layered the BST ordering invariant on top of the plain-tree shape and used it for a validity check (both directions, bounded) and a rank query (inorder counting). Today uses that same invariant for a decision — Lowest Common Ancestor of a BST asks "which single direction do I go?" rather than "is everything in range?" — and then deliberately steps away from BSTs entirely for the day's second problem: Construct Binary Tree from Preorder and Inorder Traversal works on a **plain** tree, rebuilt from two flat arrays with no ordering invariant at all. That second problem is where today's real new idea lives — divide-and-conquer, formalized for the first time with a divide step that requires genuine computation, not a free structural split.

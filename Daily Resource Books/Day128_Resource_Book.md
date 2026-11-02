@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday's WhatsApp system was the series' first genuinely **write-and-read-balanced, connection-stateful** design. Today's system flips the balance hard toward one side: Uber's driver-location problem is, by a wide margin, the most **write-heavy** workload this series has designed for — millions of drivers reporting position every few seconds, against comparatively rare "find drivers near me" reads. It's also the first system built on a genuinely new *query shape* — "what's near this point," a 2D spatial question none of the eight prior HLD systems (or, for that matter, any DSA-phase data structure) needed to answer.

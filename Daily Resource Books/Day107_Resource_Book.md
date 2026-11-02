@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day107_Missing_Remaining_GoF_Patterns_Primer.md](Day107_Missing_Remaining_GoF_Patterns_Primer.md) — Remaining GoF Design Patterns (Abstract Factory, Flyweight, etc.) (≈ 90 min)
+
+---
+
 ## Recap
 
 Yesterday closed out Structural patterns (Adapter, Decorator, Facade, Proxy, Composite) and named the third GoF category, Behavioral, without opening it. Today opens it. Everything from yesterday's foundation still holds — interfaces (Week 1, Day 2), the Four Pillars (Week 1, Day 5), SOLID (Week 1, Day 6), and the "no lambdas yet" constraint — plus one thing specific to today: yesterday's Decorator showed an object *wrapping* another object to add behavior; today's Observer shows an object *watching* another object and reacting to its changes, a genuinely different relationship, worth not conflating just because both involve one object holding a reference to another.

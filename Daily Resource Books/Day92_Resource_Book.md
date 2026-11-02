@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday (Day 91) closed Interval DP and, with it, all four of the DP subtypes that could be built without an explicit "which situation am I in" dimension — 1D, Grid, String, and Interval DP each compute `dp[state]` where "state" is just a position (an index, or a pair of indices). Week 13 Consolidation left DP at 28/35 required, with exactly two subtypes remaining: **State Machine DP** (today and tomorrow) and **Tree DP** (Day 94) — 6 required problems, closing Dynamic Programming entirely by Wednesday.

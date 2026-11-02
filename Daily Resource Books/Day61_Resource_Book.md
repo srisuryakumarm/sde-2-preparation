@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day61_Missing_Microservices_Orientation_Primer.md](Day61_Missing_Microservices_Orientation_Primer.md) — Microservices Orientation and E-Commerce Service Decomposition (≈ 75 min)
+
+---
+
 ## Recap
 
 Yesterday's two traversal styles — constrained descent (Longest Word in Dictionary) and branching descent (wildcard search) — both reappear today. Replace Words reuses constrained descent almost exactly. Word Search II combines Trie traversal with something genuinely new: a board where every cell has up to 4 neighbors, explored via choose-recurse-undo — which today's second half formally names as **Backtracking**, built on recursion (Day 8), the one prerequisite this pattern actually needs.

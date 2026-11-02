@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day78_Missing_Pagination_Offset_vs_Keyset_Cursor_MicroPrimer.md](Day78_Missing_Pagination_Offset_vs_Keyset_Cursor_MicroPrimer.md) — Pagination in Depth — Offset vs Keyset/Cursor Pagination (≈ 40 min)
+
+---
+
 ## Recap
 
 Day 77 closed Union-Find at 7/7 required (8 distinct with Day 75's extra) and immediately reused the `UnionFind` class, unmodified, as Kruskal's Algorithm's cycle-detection subroutine — the same day the pattern closed. Prim's Algorithm was taught alongside it, reusing the `PriorityQueue` machinery from Days 17, 26, and 54, and both algorithms' correctness rested on the **Cut Property**, proven via an exchange argument in the same style Week 4's Greedy Algorithms established.

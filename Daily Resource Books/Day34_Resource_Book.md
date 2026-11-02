@@ -8,6 +8,13 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers to Complete BEFORE Today's Book:**
+> *Complete the following prerequisite primer(s) in order before starting today's core theory and exercises:*
+> 1. [Day34_Missing_Initializr_Setup_and_Boot_Version_Decision_MicroPrimer.md](Day34_Missing_Initializr_Setup_and_Boot_Version_Decision_MicroPrimer.md) — Initializr Setup and Spring Boot 4.1.x Version Decision (≈ 20 min) [Select Web + Validation ONLY]
+
+---
+
 ## Recap
 
 Binary Search closed yesterday. Today opens a new data structure — but it's worth being precise about what's actually new: a linked list's `next` field is a heap reference, mechanically identical to every object reference Day 9's JVM Memory Model already covered. Nothing new is happening in memory; what's new is *using* that mechanism deliberately, node by node, to build a chain. The trade-offs against `ArrayList` were even previewed already, back on Day 12's Collections Internals ("contiguous array vs. linked nodes vs. circular array, cache locality") — today cashes that preview in with real depth.
@@ -325,7 +332,7 @@ This is Day 16's plainest generics case: `T` is completely unbounded — `Respon
 
 **Repository:** `todo-api` (new).
 
-**Step 1 — Initialize:** use Spring Initializr (start.spring.io) with dependencies: **Web**, **JPA**, **PostgreSQL**, **Validation**. Download and extract the generated project.
+**Step 1 — Initialize:** use Spring Initializr (start.spring.io) with dependencies: **Spring Web** and **Validation** (as specified in today's prerequisite primer [`Day34_Missing_Initializr_Setup_and_Boot_Version_Decision_MicroPrimer.md`](Day34_Missing_Initializr_Setup_and_Boot_Version_Decision_MicroPrimer.md); do **not** add JPA or PostgreSQL today — they will be added on Day 36 when PostgreSQL is configured). Download and extract the generated project.
 
 **Step 2 — Build `ResponseWrapper<T>`** exactly as above, in its own file.
 

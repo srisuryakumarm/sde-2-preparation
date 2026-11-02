@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Today's first problem, Reorder List, doesn't introduce a single new pointer mechanic — it combines three you already have in full: finding a middle (Day 34), reversing a list (Day 34), and merging (Day 35's dummy-head merge, adapted here to an alternating interleave rather than a sorted merge). The second problem, Copy List with Random Pointer, reuses HashMap (long since second nature) against a linked-list node shape you haven't seen yet — a second pointer field, `random`, that can point anywhere in the list rather than always forward.

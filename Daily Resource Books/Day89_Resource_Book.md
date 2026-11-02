@@ -8,6 +8,12 @@
 
 ---
 
+
+> 📚 **Prerequisites & Primers:**
+> *No separate primers required for today. All foundational concepts are covered in prior books. Proceed directly with today's material.*
+
+---
+
 ## Recap
 
 Yesterday opened String DP with two shapes: two-string comparison (LCS, Edit Distance) and a string against itself (Longest Palindromic Substring, via Expand Around Center). Today reuses both directly rather than introducing a third shape: Palindromic Substrings is yesterday's exact expand-around-center technique with a different aggregation (count, not track-longest); Longest Palindromic Subsequence is yesterday's exact LCS recurrence, run against the string and its own reverse — a genuinely non-obvious equivalence that gets a full two-directional argument below, not just an assertion. Interleaving String closes today by extending the `(m+1)×(n+1)` table convention to a third string, `s3`, without adding a third array dimension — worth seeing precisely how that's avoided.
